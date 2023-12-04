@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 400k-js-file-repo
+  description: A repo with 400,001 JS files.
+  annotations:
+    github.com/project-slug: snyk/400k-js-file
+    github.com/team-slug: snyk/sast-team
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    snyk.io/businessCriticality: medium
+    snyk.io/visibility: private
+    snyk.io/metadata-version: "2022-23-01"
+spec:
+  type: examples
+  lifecycle: "-"
+  owner: sast-team
